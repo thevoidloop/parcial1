@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>GUATEMALA</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+    
+                
+                <nav id="sidebarMenu" class="col-md-2 d-md-block bg-light sidebar collapse">
+                        <div class="sidebar-sticky pt-3">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="jacobo.html">Jacobo Árbenz Guzmán</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="kevin.html">Kevin Cordón</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="miguel.html">Miguel Ángel Asturias</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 main-content">
+                <h1>PERSONAJES DESTACADOS DE GUATEMALA </h1><br><br>
+                <p>Guatemala, en el corazón de América Central, es un tesoro de diversidad y belleza. Su rica multiculturalidad se manifiesta en 22 grupos étnicos, donde las tradiciones mayas, con sus vibrantes trajes y ceremonias, coexisten con la cultura ladina y otras influencias extranjeras, tejiendo una sociedad única y multifacética. Esta herencia cultural se refleja en su arte, una fusión de estilos ancestrales y modernos, desde tejidos en telares hasta la resonante música de la marimba y el arte contemporáneo que adorna galerías y calles. En el deporte, el fervor del fútbol se siente en cada esquina, mientras atletas en disciplinas como el racquetball llevan el nombre de Guatemala a escenarios internacionales. Pero es imposible hablar de Guatemala sin evocar sus paisajes: majestuosas ruinas mayas en medio de selvas tropicales, altos volcanes que desafían las nubes, el sereno Lago de Atitlán rodeado de montañas y playas que acarician tanto el Pacífico como el Caribe. En cada rincón, Guatemala celebra la convergencia de culturas, la pasión por el arte y el deporte, y la naturaleza en su máxima expresión.</p>
+
+                <div class="carousel-container">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="jacobo.html"><img src="assets/1.jpg" class="d-block w-100" alt="Imagen 1"> </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="kevin.html"><img src="assets/2.jpg" class="d-block w-100" alt="Imagen 2"></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="miguel.html"><img src="assets/3.jpg" class="d-block w-100" alt="Imagen 3"></a>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Siguiente</span>
+                                </a>
+                        </div>
+                </div>
+
+
+
+                <div class="container mt-5">
+                        <br><br><br><br><h2>Deja un mensaje para tu idolo</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="nombreCompleto">Nombre Completo:</label>
+                                <input type="text" class="form-control" id="nombreCompleto" name="nombreCompleto" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="correoElectronico">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="correoElectronico" name="correoElectronico" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="edad">Edad:</label>
+                                <input type="number" class="form-control" id="edad" name="edad" min="1" max="100" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="opciones">Personaje a quien va dirigido:</label>
+                                <select class="form-control" id="opciones" name="opciones" required>
+                                    <option value="opcion1">Seleccione una opcion</option>
+                                    <option value="opcion2">Jacobo Árbenz Guzmán</option>
+                                    <option value="opcion3">Kevin Cordón</option>
+                                    <option value="opcion4">Miguel Ángel Asturias</option>
+                                </select>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje que Desea Enviar:</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+                
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
